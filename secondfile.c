@@ -1,8 +1,13 @@
 #include <stdio.h>
 
-void print(int x)
+void printint(int x)
 {
   printf("%d", x);
+}
+
+void printfloat(float f)
+{
+    printf("%f",f);
 }
 
 int main(void)
